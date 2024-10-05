@@ -2,9 +2,9 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Define the project name
-project(HelloWorld)
+project(Server)
 
 # Add an executable target for the hello.c file
-add_executable(hello1 hello.cpp)
+add_executable(rachel_server server.cpp)
 
-install(TARGETS hello1)
+install(TARGETS rachel_server)
